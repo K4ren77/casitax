@@ -1,0 +1,10 @@
+.piso {
+  width: 100%;                  /* ocupa todo el ancho */
+  height: 600px;                /* altura del piso */
+  background-image: url('assets/piso.jpg');
+  background-size: cover;       /* ajusta la imagen a la caja */
+  background-repeat: repeat-x;  /* que se repita solo horizontalmente */
+  background-position: top;
+  position: relative;
+  bottom: 0;
+}
