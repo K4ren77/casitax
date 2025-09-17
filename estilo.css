@@ -37,7 +37,7 @@ body {
   position: absolute;
   width: 150px;
   top: 30px;
-  right: 850px;
+  right: 1040px;
   z-index: 2; /*piso por detrás*/
 }
 .puertas {
@@ -56,9 +56,9 @@ body {
 }
 .silla {
   position: absolute;
-  width: 200px;
-  bottom: 78px;     /* pegada al piso */
-  left: 52px;
+  width: 230px;
+  bottom: 64px; 
+  left: 40px;
   z-index: 2; /*piso por detrás*/
 }
 .casa {
@@ -72,27 +72,55 @@ body {
   position: absolute;
   width: 100px;
   bottom: 50px;     /* pegada al piso */
-  right: 1200px;
-  z-index: 2; /*piso por detrás*/
-}
-.acordeon {
-  position: absolute;
-  width: 140px;
-  bottom: 400px;     /* pegada al piso */
-  left: 1050px;
+  right: 1900px;
   z-index: 2; /*piso por detrás*/
 }
 .armario {
   position: absolute;
-  width: 285px;
-  bottom: 109px;     /* apoyada en el piso */
-  left: 658px;
+  width: 300px;
+  bottom:100px;/* apoyada en el piso */
+  left: 650px;
   z-index: 3; /*piso por detras*/
 }
-.discos {
+.escritorio {
   position: absolute;
-  width: 200px;
-  bottom: 109px;     /* apoyada en el piso */
-  left: 1200px;
+  width: 450px;
+  bottom: 37px;
+  right: 1200px;
+  z-index: 2; /*piso por detrás*/
+}
+.escalera {
+position: absolute;
+  width:600px;
+  bottom: 3px;
+  right:0;
+  z-index: 2; /*piso por detrás*/
+}
+.planta1 {
+  position: absolute;
+  width: 160px;
+  bottom: 440px;
+  left: 40px;
+  z-index: 2; /*piso por detrás*/
+}
+.libros {
+  position: absolute;
+  width: 270px;
+  bottom: 37px;
+  right: 930px;
+  z-index: 2; /*piso por detrás*/
+}
+.escalera {
+  position: absolute;
+  width: 700px;
+  bottom: 12px;
+  right: 0px;
+  z-index: 2; /*piso por detrás*/
+}
+.mapa {
+  position: absolute;
+  width: 300px;
+  top: 30px;
+  right: 1300px;
   z-index: 2; /*piso por detrás*/
 }
