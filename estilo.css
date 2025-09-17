@@ -1,26 +1,98 @@
 body {
   max-width: none;
 }
-
-.piso {
-  width: 100%;                  /* ocupa todo el ancho */
-  height: 600px;                /* altura del piso */
-  background-image: url('assets/piso.jpg');
-  background-size: cover;       /* ajusta la imagen a la caja */
-  background-repeat: repeat-x;  /* que se repita solo horizontalmente */
-  background-position: top;
-  position: relative;
-  bottom: 0;
-}
-
  h1 {
   color: black;
   text-align: center;
   padding-top: 3%;
 }
 
-.hello {
+.piso {
   width: 100%;
-  height: auto;
-  max-width:none ;
+  height: 150px;
+  background-image: url('assets/piso.jpg');
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: absolute; 
+  left: 0;
+  bottom:0;
+  z-index: 1; /*piso por detrás*/
+}
+
+.escenario {
+  position: relative;
+  width: 100%;
+  height: 100vh; /*ocupa toda la pantalla*/
+  overflow: hidden;
+}
+
+.mesita {
+  position: absolute;
+  width: 200px;
+  bottom: 70px;     /* pegada al piso */
+  left: 195px;
+  z-index: 2; /*piso por detrás*/
+}
+.poster {
+  position: absolute;
+  width: 150px;
+  top: 30px;
+  right: 850px;
+  z-index: 2; /*piso por detrás*/
+}
+.puertas {
+  position: absolute;
+  width: 200px;
+  bottom: 150px;     /* apoyada en el piso */
+  left: 700px;
+  z-index: 2; /*piso por detrás*/
+}
+.cafe {
+  position: absolute;
+  width: 65px;
+  bottom: 293px;     /* pegada al piso */
+  left: 250px;
+  z-index: 3; /* adelante*/
+}
+.silla {
+  position: absolute;
+  width: 200px;
+  bottom: 78px;     /* pegada al piso */
+  left: 52px;
+  z-index: 2; /*piso por detrás*/
+}
+.casa {
+  position: absolute;
+  width: 155px;
+  bottom: 100px;     /* pegada al piso */
+  left: 360px;
+  z-index: 2; /*piso por detrás*/
+}
+.botas {
+  position: absolute;
+  width: 100px;
+  bottom: 50px;     /* pegada al piso */
+  right: 1200px;
+  z-index: 2; /*piso por detrás*/
+}
+.acordeon {
+  position: absolute;
+  width: 140px;
+  bottom: 400px;     /* pegada al piso */
+  left: 1050px;
+  z-index: 2; /*piso por detrás*/
+}
+.armario {
+  position: absolute;
+  width: 285px;
+  bottom: 109px;     /* apoyada en el piso */
+  left: 658px;
+  z-index: 3; /*piso por detras*/
+}
+.discos {
+  position: absolute;
+  width: 200px;
+  bottom: 109px;     /* apoyada en el piso */
+  left: 1200px;
+  z-index: 2; /*piso por detrás*/
 }
