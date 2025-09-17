@@ -1,3 +1,7 @@
+body {
+  max-width: none;
+}
+
 .piso {
   width: 100%;                  /* ocupa todo el ancho */
   height: 600px;                /* altura del piso */
@@ -13,4 +17,10 @@
   color: black;
   text-align: center;
   padding-top: 3%;
+}
+
+.hello {
+  width: 100%;
+  height: auto;
+  max-width:none ;
 }
