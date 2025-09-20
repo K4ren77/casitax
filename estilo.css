@@ -166,3 +166,52 @@ position: absolute;
   left: 1100px;
   z-index: 2; /*piso por detrás*/
 }
+.pluma {
+  position: absolute;
+  width: 90px;
+  bottom: 262px;
+  right: 1288px;
+  z-index: 2; /*piso por detrás*/
+}
+.planta2 {
+  position: absolute;
+  width: 220px;
+  bottom: 100px;
+  right: 1630px;
+  z-index: 2; /*piso por detrás*/
+}
+.maquina {
+  position: absolute;
+  width: 230px;
+  bottom: 240px;
+  right: 1312px;
+  z-index: 2; /*piso por detrás*/
+}
+.hadas {
+  position: absolute;
+  width: 90px;
+  bottom: 430px;
+  left: 520px;
+  z-index: 2; /*piso por detrás*/
+}
+.reloj {
+  position: absolute;
+  width: 150px;
+  bottom: 460px;
+  left: 1800px;
+  z-index: 2; /*piso por detrás*/
+}
+.mesa {
+position: absolute;
+  width: 450px;
+  bottom: 10px;
+  left: 1700px;
+  z-index: 2; /*piso por detrás*/
+}
+.cuchillo {
+  position: absolute;
+  width: 110px;
+  bottom: 300px;
+  left: 1700px;
+  z-index: 2; /*piso por detrás*/
+}
