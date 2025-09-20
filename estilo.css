@@ -30,7 +30,7 @@ body {
   position: absolute;
   width: 200px;
   bottom: 70px;     /* pegada al piso */
-  left: 195px;
+  left: 250px;
   z-index: 2; /*piso por detrás*/
 }
 .poster {
@@ -44,14 +44,14 @@ body {
   position: absolute;
   width: 200px;
   bottom: 150px;     /* apoyada en el piso */
-  left: 700px;
+  left: 900px;
   z-index: 2; /*piso por detrás*/
 }
 .cafe {
   position: absolute;
   width: 65px;
   bottom: 293px;     /* pegada al piso */
-  left: 250px;
+  left: 300px;
   z-index: 3; /* adelante*/
 }
 .silla {
@@ -65,21 +65,21 @@ body {
   position: absolute;
   width: 155px;
   bottom: 100px;     /* pegada al piso */
-  left: 360px;
+  left: 388px;
   z-index: 2; /*piso por detrás*/
 }
 .botas {
   position: absolute;
   width: 100px;
-  bottom: 50px;     /* pegada al piso */
-  right: 1900px;
+  bottom: 90px;     /* pegada al piso */
+  left: 1490px;
   z-index: 2; /*piso por detrás*/
 }
 .armario {
   position: absolute;
   width: 300px;
   bottom:100px;/* apoyada en el piso */
-  left: 650px;
+  left: 844px;
   z-index: 3; /*piso por detras*/
 }
 .escritorio {
@@ -122,5 +122,47 @@ position: absolute;
   width: 300px;
   top: 30px;
   right: 1300px;
+  z-index: 2; /*piso por detrás*/
+}
+.repisa {
+  position: absolute;
+  width: 300px;
+ bottom: 380px;
+  left: 470px;
+  z-index: 2; /*piso por detrás*/
+}
+.gato {
+  position: absolute;
+  width: 100px;
+  bottom: 275px;
+  left: 470px;
+  z-index: 2; /*piso por detrás*/
+}
+.radio {
+  position: absolute;
+  width: 130px;
+  bottom: 396px;
+  left: 608px;
+  z-index: 2; /*piso por detrás*/
+}
+.ruana {
+  position: absolute;
+  width: 258px;
+  bottom: 200px;
+  left: 1400px;
+  z-index: 2; /*piso por detrás*/
+}
+.cartas {
+  position: absolute;
+  width: 80px;
+  bottom: 258px;
+  right: 1488px;
+  z-index: 2; /*piso por detrás*/
+}
+.guitar {
+  position: absolute;
+  width: 260px;
+  bottom: 130px;
+  left: 1100px;
   z-index: 2; /*piso por detrás*/
 }
