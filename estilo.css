@@ -69,7 +69,7 @@ body {
 .cafe {
   position: absolute;
   width: 65px;
-  bottom: 293px;     /* pegada al piso */
+  bottom: 290px;     /* pegada al piso */
   left: 300px;
   z-index: 3; /* adelante*/
 }
@@ -250,8 +250,8 @@ position: absolute;
 }
 .granada {
   position: absolute;
-  width: 49px;
-  bottom: 307px;
+  width: 55px;
+  bottom: 304px;
   left: 1948px;
   z-index: 3; /*piso por detrás*/
 }
@@ -292,8 +292,8 @@ position: absolute;
 }
 .arm {
   position: absolute;
-  width: 110px;
-  bottom: 67px;
+  width: 120px;
+  bottom: 75px;
   right: 1690px;
   z-index: 2; /*piso por detrás*/
 }
@@ -335,70 +335,70 @@ position: absolute;
 .gato2 {
   position: absolute;
   width: 115px;
-  bottom: 80px;
+  bottom: 60px;
   left: 2180px;
   z-index: 2; /*piso por detrás*/
 }
 .paper {
   position: absolute;
   width: 110px;
-  bottom: 170px;
-  right: 2250px;
-  z-index: 2; /*piso por detrás*/
+  bottom: 140px;
+  right: 2260px;
+  z-index: 3; /*piso por detrás*/
 }
 .frai {
   position: absolute;
   width: 80px;
   bottom: 208px;
-  right: 2485px;
+  right: 2470px;
   z-index: 2; /*piso por detrás*/
 }
 .bola {
   position: absolute;
   width: 40px;
-  bottom: 80px;
+  bottom: 60px;
   left: 2260px;
   z-index: 2; /*piso por detrás*/
 }
 .pap {
   position: absolute;
   width: 100px;
-  bottom: 208px;
-  right: 2485px;
+  bottom: 83px;
+  left: 2297px;
   z-index: 3; /*piso por detrás*/
 }
 .silli {
   position: absolute;
   width: 156px;
-  bottom: 78px;
-  right: 2260px;
+  bottom: 85px;
+  right: 2240px;
   z-index: 2; /*piso por detrás*/
 }
 .vela {
   position: absolute;
-  width: 80px;
-  bottom: 208px;
-  right: 2485px;
+  width: 57px;
+  bottom: 474px;
+  right: 2690px;
   z-index: 2; /*piso por detrás*/
 }
 .pasta {
-  position: absolute;
-  width: 90px;
-  bottom: 430px;
-  left: 520px;
-  z-index: 2; /*piso por detrás*/
+ position: absolute;
+  width: 55px;
+  bottom: 268px;     /* pegada al piso */
+  left: 350px;
+  z-index: 3; /* adelante*/
 }
 .llaves {
   position: absolute;
-  width: 90px;
-  bottom: 430px;
-  left: 520px;
+  width: 50px;
+  bottom: 253px;
+  right: 1273px;
   z-index: 2; /*piso por detrás*/
 }
 .monedas {
   position: absolute;
-  width: 90px;
-  bottom: 430px;
-  left: 520px;
-  z-index: 2; /*piso por detrás*/
+  width: 55px;
+  bottom: 290px;
+  left: 1970px;
+  z-index: 3; /*piso por detrás*/
 }
