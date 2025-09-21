@@ -26,6 +26,25 @@ body {
   overflow: hidden;
 }
 
+
+.ventana {
+  position: absolute;
+  width: 220px;
+  background: white;
+  border: 3px solid violet;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  padding: 5px;
+  z-index: 999;
+}
+
+.ventana img {
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
 .mesita {
   position: absolute;
   width: 200px;
@@ -175,9 +194,9 @@ position: absolute;
 }
 .planta2 {
   position: absolute;
-  width: 220px;
+  width: 120px;
   bottom: 100px;
-  right: 1630px;
+  left: 2415px;
   z-index: 2; /*piso por detrás*/
 }
 .maquina {
@@ -197,21 +216,189 @@ position: absolute;
 .reloj {
   position: absolute;
   width: 150px;
-  bottom: 460px;
-  left: 1800px;
+  bottom: 430px;
+  left: 1260px;
   z-index: 2; /*piso por detrás*/
 }
 .mesa {
-position: absolute;
+ position: absolute;
   width: 450px;
   bottom: 10px;
   left: 1700px;
   z-index: 2; /*piso por detrás*/
 }
-.cuchillo {
+.cuadros {
+  position: absolute;
+  width: 380px;
+  bottom: 60px;
+  left: 2100px;
+  z-index: 2; /*piso por detrás*/
+}
+.ventanax {
+  position: absolute;
+  width: 320px;
+  bottom: 220px;
+  left: 1770px;
+  z-index: 2; /*piso por detrás*/
+}
+.banano {
+  position: absolute;
+  width: 70px;
+  bottom: 293px;
+  left: 1840px;
+  z-index: 3; /*piso por detrás*/
+}
+.granada {
+  position: absolute;
+  width: 49px;
+  bottom: 307px;
+  left: 1948px;
+  z-index: 3; /*piso por detrás*/
+}
+.mango {
+  position: absolute;
+  width: 45px;
+  bottom: 303px;
+  left: 1900px;
+  z-index: 2; /*piso por detrás*/
+}
+.papa {
+  position: absolute;
+  width: 150px;
+  bottom: 98px;
+  left: 1900px;
+  z-index: 2; /*piso por detrás*/
+}
+.pita {
+  position: absolute;
+  width: 40px;
+  bottom: 300px;
+  left: 1886px;
+  z-index: 3; /*piso por detrás*/
+}
+.aguacate {
+  position: absolute;
+  width: 66px;
+  bottom: 300px;
+  left: 1790px;
+  z-index: 2; /*piso por detrás*/
+}
+.cuc {
+  position: absolute;
+  width: 90px;
+  bottom: 303px;
+  left: 1880px;
+  z-index: 2; /*piso por detrás*/
+}
+.arm {
   position: absolute;
   width: 110px;
-  bottom: 300px;
-  left: 1700px;
+  bottom: 67px;
+  right: 1690px;
+  z-index: 2; /*piso por detrás*/
+}
+.boli {
+  position: absolute;
+  width: 76px;
+  bottom: 430px;
+  left: 315px;
+  z-index: 2; /*piso por detrás*/
+}
+.espada {
+  position: absolute;
+  width: 250px;
+  bottom: 439px;
+  left: 2717px;
+  z-index: 3; /*piso por detrás*/
+}
+.paño {
+  position: absolute;
+  width: 76px;
+  bottom: 110px;
+  left: 1630px;
+  z-index: 2; /*piso por detrás*/
+}
+.sofa {
+  position: absolute;
+  width: 595px;
+  bottom: 3px;
+  left: 2500px;
+  z-index: 2; /*piso por detrás*/
+}
+.repisa2 {
+  position: absolute;
+  width: 300px;
+  bottom: 430px;
+  left: 2681px;
+  z-index: 2; /*piso por detrás*/
+}
+.gato2 {
+  position: absolute;
+  width: 115px;
+  bottom: 80px;
+  left: 2180px;
+  z-index: 2; /*piso por detrás*/
+}
+.paper {
+  position: absolute;
+  width: 110px;
+  bottom: 170px;
+  right: 2250px;
+  z-index: 2; /*piso por detrás*/
+}
+.frai {
+  position: absolute;
+  width: 80px;
+  bottom: 208px;
+  right: 2485px;
+  z-index: 2; /*piso por detrás*/
+}
+.bola {
+  position: absolute;
+  width: 40px;
+  bottom: 80px;
+  left: 2260px;
+  z-index: 2; /*piso por detrás*/
+}
+.pap {
+  position: absolute;
+  width: 100px;
+  bottom: 208px;
+  right: 2485px;
+  z-index: 3; /*piso por detrás*/
+}
+.silli {
+  position: absolute;
+  width: 156px;
+  bottom: 78px;
+  right: 2260px;
+  z-index: 2; /*piso por detrás*/
+}
+.vela {
+  position: absolute;
+  width: 80px;
+  bottom: 208px;
+  right: 2485px;
+  z-index: 2; /*piso por detrás*/
+}
+.pasta {
+  position: absolute;
+  width: 90px;
+  bottom: 430px;
+  left: 520px;
+  z-index: 2; /*piso por detrás*/
+}
+.llaves {
+  position: absolute;
+  width: 90px;
+  bottom: 430px;
+  left: 520px;
+  z-index: 2; /*piso por detrás*/
+}
+.monedas {
+  position: absolute;
+  width: 90px;
+  bottom: 430px;
+  left: 520px;
   z-index: 2; /*piso por detrás*/
 }
