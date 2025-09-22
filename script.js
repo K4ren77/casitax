@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
       // Imagen
       const img = document.createElement("img");
       img.src = fotos[index];
-      img.style.borderRadius = "6px";
       img.style.display = "block";
 
       ventana.appendChild(img);
@@ -65,7 +64,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // 🔹 Aquí activas el proceso en cada imagen con sus fotos
+  // proceso en cada imagen con sus fotos
+
   activarSecuencia(".cuadros", [
     "assets/family.jpg",
     "assets/marcha.png",
@@ -75,7 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "assets/guerra.png",
     "assets/marcha2.png",
     "assets/muerte.png",
-    
   ]);
 
   activarSecuencia("#paper", [
@@ -113,28 +112,28 @@ activarSecuencia("#libros", [
     "assets/libro7.jpg",
     "assets/mani.jpg",
     "assets/rev.jpg",
+    "assets/aguas.png",
+
   ]);
 
-  activarSecuencia("#carta", [
-    "assets/cartitas.jpg", 
+  activarSecuencia("#cartas", [
+    "assets/go.jpg", 
     "assets/col.png",
     "assets/letra.png",
     "assets/seño.png",
     "assets/pazz.png",
     "assets/cedula.png",
-    "assets/indepen.png"
+    "assets/depie.jpg",
+    "assets/depie2.jpg",
+
   ]);
 
-  activarSecuencia("#chiqui", [
-      "assets/hell.png",
-      "assets/m19.png",
-    
-  ]);
-  
    activarSecuencia("#mapa", [
       "assets/vieja.png",
       "assets/soldaditos.png",
       "assets/farc2.jpg",
+      "assets/estado.jpg",
+
     
   ]);
 
@@ -142,12 +141,12 @@ activarSecuencia("#frai", [
       "assets/gol.png",
   ]);
 
-   
+  activarSecuencia("#espada", [
+      "assets/robo.webp",
+  ]);
 
 
-
-
-});
+  });
 
 
 
@@ -178,8 +177,17 @@ activarSonido("#guitarra",
 
 activarSonido("#maquina", 
   "assets/escribirmaquina.mp3"
+ 
 );
 
 activarSonido("#ventana", 
   "assets/campo.mp3"
+);
+
+activarSonido("#reloj", 
+  "assets/tic.mp3"
+);
+
+activarSonido("#chee", 
+  "assets/chee.mp3"
 );
