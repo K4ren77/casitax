@@ -73,6 +73,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "assets/secuestro.png",
     "assets/machete.png",
     "assets/guerra.png",
+    "assets/marcha2.png",
+    "assets/muerte.png",
     
   ]);
 
@@ -85,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "assets/comunista.png",
     "assets/eeuu.png",
     "assets/gaitan.png",
-    "assets/hippie.png",
+    "assets/hippie.png"
    
   ]);
 
@@ -102,15 +104,25 @@ activarSecuencia("#boli", [
 
 activarSecuencia("#libros", [
     "assets/loca.jpg",
-    "assets/marcha2.png",
-     "assets/muerte.png",
-
-    
+    "assets/libro1.jpg",
+    "assets/libro2.jpg",
+    "assets/libro3.jpg",
+    "assets/libro4.png",
+    "assets/libro5.jpg",
+    "assets/libro6.jpg",
+    "assets/libro7.jpg",
+    "assets/mani.jpg",
+    "assets/rev.jpg",
   ]);
 
   activarSecuencia("#carta", [
-    "assets/cartitas.jpg",
- 
+    "assets/cartitas.jpg", 
+    "assets/col.png",
+    "assets/letra.png",
+    "assets/seño.png",
+    "assets/pazz.png",
+    "assets/cedula.png",
+    "assets/indepen.png"
   ]);
 
   activarSecuencia("#chiqui", [
@@ -139,3 +151,35 @@ activarSecuencia("#frai", [
 
 
 
+
+// Función para asignar sonido a un objeto clickeable
+function activarSonido(triggerSelector, sonidoRuta) {
+  const trigger = document.querySelector(triggerSelector);
+  const sonido = new Audio(sonidoRuta);
+
+  trigger.addEventListener("click", () => {
+    sonido.currentTime = 0; // Reinicia el audio cada vez que se clickea
+    sonido.play();
+  });
+}
+
+// 🔹 Activar sonido en la imagen de radio
+activarSonido("#radio", 
+  "assets/pablo.mp3"
+);
+
+activarSonido("#gato1", 
+  "assets/cat.mp3"
+);
+
+activarSonido("#guitarra", 
+  "assets/guitarra.mp3"
+);
+
+activarSonido("#maquina", 
+  "assets/escribirmaquina.mp3"
+);
+
+activarSonido("#ventana", 
+  "assets/campo.mp3"
+);
