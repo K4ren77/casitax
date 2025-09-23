@@ -3,7 +3,7 @@ body {
 }
  h1 {
   color: rgb(71, 58, 34);
-  margin-left: 110px;
+  margin-left: 50px;
   top:auto;
  font-size: 70px;
 
@@ -109,13 +109,6 @@ body {
   width: 450px;
   bottom: 37px;
   right: 1200px;
-  z-index: 2; /*piso por detrás*/
-}
-.escalera {
- position: absolute;
-  width: 1800px;
-  bottom: 3px;
-  right:0;
   z-index: 2; /*piso por detrás*/
 }
 .planta1 {
@@ -459,5 +452,12 @@ body {
   width: 100px;
   bottom: 459px;
   right: 2002px;
+  z-index: 2; /*piso por detrás*/
+}
+.escalera {
+ position: absolute;
+  width: 800px;
+  bottom: 3px;
+  right:0;
   z-index: 2; /*piso por detrás*/
 }
