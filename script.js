@@ -95,12 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
   ]);
 
 
-activarSecuencia("#boli", [
-    "assets/lider.png",
-    
-
-  ]);
-
 activarSecuencia("#libros", [
     "assets/loca.jpg",
     "assets/libro1.jpg",
@@ -145,6 +139,22 @@ activarSecuencia("#frai", [
       "assets/robo.webp",
   ]);
 
+   activarSecuencia("#papa", [
+      "assets/paro.jpeg",
+  ]);
+
+   activarSecuencia("#banano", [
+     "assets/nn.jpg",
+      "assets/united.jpg",
+      "assets/masacre.jpeg",
+
+  ]);
+   
+  activarSecuencia("#botas", [
+      "assets/botass.jpg",
+      "assets/verdad.jpeg",
+
+  ]);
 
   });
 
@@ -172,13 +182,14 @@ activarSonido("#gato1",
 );
 
 activarSonido("#guitarra", 
-  "assets/guitarra.mp3"
+  "assets/resist.mp3"
+ 
 );
 
 activarSonido("#maquina", 
   "assets/escribirmaquina.mp3"
- 
-);
+
+ );
 
 activarSonido("#ventana", 
   "assets/campo.mp3"
@@ -191,3 +202,9 @@ activarSonido("#reloj",
 activarSonido("#chee", 
   "assets/chee.mp3"
 );
+
+ activarSonido("#boli", 
+  "assets/pisba.mp3"
+);
+ 
+
