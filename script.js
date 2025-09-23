@@ -119,6 +119,8 @@ activarSecuencia("#libros", [
     "assets/cedula.png",
     "assets/depie.jpg",
     "assets/depie2.jpg",
+    "assets/apa.PNG",
+
 
   ]);
 
@@ -207,4 +209,24 @@ activarSonido("#chee",
   "assets/pisba.mp3"
 );
  
+
+// Abrir link abu
+const abu = document.querySelector("#abu");
+if (abu) {
+  abu.addEventListener("click", () => {
+    window.open(
+    "https://galerialacometa.com/exhibiciones/bogota/gabriela-pinilla-clandestina-es#:~:text=Carmenza%20o%20%E2%80%9Cla%20Chiqui%E2%80%9D%20como,historia%20de%20esta%20guerrilla%2C%20que", 
+    "_blank");
+  });
+}
+
+// Abrir link chiqui
+const chiqui = document.querySelector("#chiqui");
+if (chiqui) {
+  chiqui.addEventListener("click", () => {
+    window.open(
+    "https://www.oigahermanohermana.org/article-in-memoriam-carmenza-cardona-londo-o-norma-125358390.html?utm_source=chatgpt.com", 
+    "_blank");
+  });
+}
 
