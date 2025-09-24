@@ -128,9 +128,7 @@ activarSecuencia("#libros", [
       "assets/vieja.png",
       "assets/soldaditos.png",
       "assets/farc2.jpg",
-      "assets/estado.jpg",
-
-    
+      "assets/estado.jpg"
   ]);
 
 activarSecuencia("#frai", [
@@ -209,6 +207,19 @@ activarSonido("#chee",
   "assets/pisba.mp3"
 );
  
+ activarSonido("#hadas", 
+  "assets/polvo.mp3"
+);
+
+ activarSonido("#pistol", 
+  "assets/rifle.mp3"
+);
+
+ activarSonido("#cafe", 
+  "assets/aguila.mp3"
+);
+
+
 
 // Abrir link abu
 const abu = document.querySelector("#abu");
