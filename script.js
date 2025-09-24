@@ -118,8 +118,6 @@ activarSecuencia("#libros", [
     "assets/depie.jpg",
     "assets/depie2.jpg",
     "assets/apa.PNG",
-
-
   ]);
 
    activarSecuencia("#mapa", [
@@ -145,7 +143,6 @@ activarSecuencia("#frai", [
      "assets/nn.jpg",
       "assets/united.jpg",
       "assets/masacre.jpeg",
-
   ]);
    
   activarSecuencia("#botas", [
@@ -269,11 +266,14 @@ if (puerta) {
     if (!abierta) {
       puerta.src = "assets/puertaA.png"; 
       abierta = true;
-      style
-      width
+     puerta.style.height = "380px";
+     puerta.style.bottom = "128px";
 
-    } else {
+    } 
+    else {
       puerta.src = "assets/puertas.jpg"; 
+       puerta.style.height = "380px";
+     puerta.style.bottom = "150px";
       abierta = false;
     }
   });

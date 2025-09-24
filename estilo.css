@@ -457,10 +457,4 @@ body {
   left: 3365px;
   z-index: 2; /*piso por detrás*/
 }
-.escalera {
- position: absolute;
-  width: 800px;
-  bottom: 3px;
-  left: 100;
-  z-index: 2; /*piso por detrás*/
-}
+
