@@ -241,3 +241,41 @@ if (chiqui) {
   });
 }
 
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const armario = document.querySelector("#armario");
+  let movido = false; // estado inicial
+
+  if (armario) {
+    armario.addEventListener("click", () => {
+      if (!movido) {
+        armario.style.transform = "translateX(220px)";
+        movido = true;
+      } else {
+        armario.style.transform = "translateX(0)";
+        movido = false;
+      }
+    });
+  }
+});
+
+
+
+const puerta = document.querySelector("#puerta");
+if (puerta) {
+  let abierta = false; // estado inicial (cerrada)
+
+  puerta.addEventListener("click", () => {
+    if (!abierta) {
+      puerta.src = "assets/puertaA.png"; // imagen con la puerta abierta
+      abierta = true;
+    } else {
+      puerta.src = "assets/puertas.jpg"; // vuelve a la imagen original
+      abierta = false;
+    }
+  });
+}
+

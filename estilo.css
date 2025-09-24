@@ -69,6 +69,9 @@ body {
   left: 900px;
   z-index: 2; /*piso por detrás*/
 }
+
+
+
 .cafe {
   position: absolute;
   width: 65px;
@@ -103,6 +106,7 @@ body {
   bottom:100px;/* apoyada en el piso */
   left: 844px;
   z-index: 3; /*piso por detras*/
+  transition: transform 0.5s ease;
 }
 .escritorio {
   position: absolute;
