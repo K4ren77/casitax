@@ -5,7 +5,7 @@ body {
   color: rgb(71, 58, 34);
   margin-left: 50px;
   top:auto;
- font-size: 70px;
+  font-size: 70px;
 
   font-family: "Ephesis", cursive;
   font-weight: 599;
@@ -22,7 +22,7 @@ body {
   position: absolute; 
   left: 0;
   bottom:0;
-  z-index: 1; /*piso por detrás*/
+  z-index: 1; 
 }
 
 .escenario {
@@ -58,8 +58,8 @@ body {
 .poster {
   position: absolute;
   width: 150px;
-  top: 30px;
-  right: 1040px;
+  bottom: 390px;
+  left: 4300px;
   z-index: 2; /*piso por detrás*/
 }
 .puertas {
@@ -69,7 +69,6 @@ body {
   left: 900px;
   z-index: 2; /*piso por detrás*/
 }
-
 
 
 .cafe {
@@ -112,7 +111,7 @@ body {
   position: absolute;
   width: 450px;
   bottom: 37px;
-  right: 1200px;
+  left: 3813px;
   z-index: 2; /*piso por detrás*/
 }
 .planta1 {
@@ -126,7 +125,7 @@ body {
   position: absolute;
   width: 270px;
   bottom: 37px;
-  right: 930px;
+  left: 4288px;
   z-index: 2; /*piso por detrás*/
 }
 .escalera {
@@ -139,8 +138,8 @@ body {
 .mapa {
   position: absolute;
   width: 300px;
-  top: 30px;
-  right: 1300px;
+  bottom: 400px;
+  left: 3880px;
   z-index: 2; /*piso por detrás*/
 }
 .repisa {
@@ -175,7 +174,7 @@ body {
   position: absolute;
   width: 80px;
   bottom: 258px;
-  right: 1492px;
+  left: 3888px;
   z-index: 2; /*piso por detrás*/
 }
 .guitar {
@@ -189,7 +188,7 @@ body {
   position: absolute;
   width: 90px;
   bottom: 262px;
-  right: 1288px;
+  left: 4085px;
   z-index: 2; /*piso por detrás*/
 }
 .planta2 {
@@ -203,7 +202,7 @@ body {
   position: absolute;
   width: 130px;
   bottom: 260px;
-  right: 1360px;
+  left: 3975px;
   z-index: 2; /*piso por detrás*/
 }
 .hadas {
@@ -294,7 +293,7 @@ body {
   position: absolute;
   width: 120px;
   bottom: 75px;
-  right: 1690px;
+  left: 3670px;
   z-index: 2; /*piso por detrás*/
 }
 .boli {
@@ -343,14 +342,14 @@ body {
   position: absolute;
   width: 110px;
   bottom: 140px;
-  right: 2260px;
+  left: 3088px;
   z-index: 3; /*piso por detrás*/
 }
 .frai {
   position: absolute;
   width: 80px;
   bottom: 208px;
-  right: 2470px;
+  left: 2900px;
   z-index: 2; /*piso por detrás*/
 }
 .bola {
@@ -371,14 +370,14 @@ body {
   position: absolute;
   width: 156px;
   bottom: 85px;
-  right: 2240px;
+  left: 3065px;
   z-index: 2; /*piso por detrás*/
 }
 .vela {
   position: absolute;
   width: 57px;
   bottom: 474px;
-  right: 2690px;
+  left: 2710px;
   z-index: 2; /*piso por detrás*/
 }
 .pasta {
@@ -392,7 +391,7 @@ body {
   position: absolute;
   width: 50px;
   bottom: 253px;
-  right: 1273px;
+  left: 4143px;
   z-index: 2; /*piso por detrás*/
 }
 .monedas {
@@ -406,62 +405,62 @@ body {
   position: absolute;
   width: 330px;
   bottom: 48px;
-  right: 1930px;
+  left: 3216px;
   z-index: 3; /*piso por detrás*/
 }
 .chiqui {
   position: absolute;
   width: 97px;
   bottom: 410px;
-  right: 1900px;
+  left: 3468px;
   z-index: 2; /*piso por detrás*/
 }
 .m19 {
   position: absolute;
   width: 80px;
   bottom: 305px;
-  right: 1899px;
+  left: 3485px;
   z-index: 2; /*piso por detrás*/
 }
 .carmen {
   position: absolute;
   width: 90px;
   bottom: 370px;
-  right: 1807px;
+  left: 3567px;
   z-index: 2; /*piso por detrás*/
 }
 .mano {
   position: absolute;
   width: 60px;
   bottom: 330px;
-  right: 1981px;
+  left: 3423px;
   z-index: 2; /*piso por detrás*/
 }
 .hh {
   position: absolute;
   width: 60px;
   bottom: 502px;
-  right: 1837px;
+  left: 3567px;
   z-index: 2; /*piso por detrás*/
 }
 .band {
    position: absolute;
   width: 100px;
   bottom: 400px;
-  right: 2002px;
+  left: 3365px;
   z-index: 2; /*piso por detrás*/
 }
 .memoria {
   position: absolute;
   width: 100px;
   bottom: 459px;
-  right: 2002px;
+  left: 3365px;
   z-index: 2; /*piso por detrás*/
 }
 .escalera {
  position: absolute;
   width: 800px;
   bottom: 3px;
-  right:0;
+  left: 100;
   z-index: 2; /*piso por detrás*/
 }

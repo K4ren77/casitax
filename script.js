@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const ventanaContainer = document.getElementById("ventanas");
 
-  // Función genérica para asignar la secuencia de fotos a un activador
   function activarSecuencia(triggerSelector, fotos) {
     const trigger = document.querySelector(triggerSelector);
 
@@ -29,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       fotosAbiertas.push(ventana);
 
-      // Posición aleatoria
       const offsetX = (Math.random() - 0.5) * 200;
       const offsetY = (Math.random() - 0.5) * 200;
 
@@ -64,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // proceso en cada imagen con sus fotos
+  //
 
   activarSecuencia(".cuadros", [
     "assets/family.jpg",
@@ -161,18 +159,18 @@ activarSecuencia("#frai", [
 
 
 
-// Función para asignar sonido a un objeto clickeable
+
 function activarSonido(triggerSelector, sonidoRuta) {
   const trigger = document.querySelector(triggerSelector);
   const sonido = new Audio(sonidoRuta);
 
   trigger.addEventListener("click", () => {
-    sonido.currentTime = 0; // Reinicia el audio cada vez que se clickea
+    sonido.currentTime = 0; 
     sonido.play();
   });
 }
 
-// 🔹 Activar sonido en la imagen de radio
+
 activarSonido("#radio", 
   "assets/pablo.mp3"
 );
@@ -243,11 +241,10 @@ if (chiqui) {
 
 
 
-
-
+//armario
 document.addEventListener("DOMContentLoaded", () => {
   const armario = document.querySelector("#armario");
-  let movido = false; // estado inicial
+  let movido = false; 
 
   if (armario) {
     armario.addEventListener("click", () => {
@@ -263,17 +260,20 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
+//puertas
 const puerta = document.querySelector("#puerta");
 if (puerta) {
-  let abierta = false; // estado inicial (cerrada)
+  let abierta = false; 
 
   puerta.addEventListener("click", () => {
     if (!abierta) {
-      puerta.src = "assets/puertaA.png"; // imagen con la puerta abierta
+      puerta.src = "assets/puertaA.png"; 
       abierta = true;
+      style
+      width
+
     } else {
-      puerta.src = "assets/puertas.jpg"; // vuelve a la imagen original
+      puerta.src = "assets/puertas.jpg"; 
       abierta = false;
     }
   });
