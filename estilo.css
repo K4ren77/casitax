@@ -69,8 +69,6 @@ body {
   left: 900px;
   z-index: 2; /*piso por detrás*/
 }
-
-
 .cafe {
   position: absolute;
   width: 65px;

@@ -148,8 +148,7 @@ activarSecuencia("#frai", [
   activarSecuencia("#botas", [
       "assets/botass.jpg",
       "assets/verdad.jpeg",
-
-  ]);
+    ]);
 
   });
 
@@ -246,7 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (armario) {
     armario.addEventListener("click", () => {
       if (!movido) {
-        armario.style.transform = "translateX(220px)";
+        armario.style.transform = "translateX(225px)";
         movido = true;
       } else {
         armario.style.transform = "translateX(0)";
@@ -266,13 +265,15 @@ if (puerta) {
     if (!abierta) {
       puerta.src = "assets/puertaA.png"; 
       abierta = true;
-     puerta.style.height = "380px";
-     puerta.style.bottom = "128px";
+     puerta.style.height = "411px";
+    puerta.style.width = "260px"
+     puerta.style.bottom = "125px";
 
     } 
     else {
       puerta.src = "assets/puertas.jpg"; 
        puerta.style.height = "380px";
+        puerta.style.width = "200px"
      puerta.style.bottom = "150px";
       abierta = false;
     }
